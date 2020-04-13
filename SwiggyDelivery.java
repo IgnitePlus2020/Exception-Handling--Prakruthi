@@ -7,7 +7,7 @@ public class SwiggyDelivery
     static List<Integer> zipCode = new ArrayList<Integer>();
     static int zip;
     static int count;
-    public void main(String[] args)
+    public static void main(String[] args)
     {
         zipCode.add(123);
         zipCode.add(456);
@@ -47,5 +47,18 @@ public class SwiggyDelivery
 
 
 }
+/* OUTPUT
+Enter your Zip Code
+568
+Delivery available in your area :)
+
+Process finished with exit code 0
+
+Enter your Zip Code
+123
+Delivery not available in your area :(
+
+Process finished with exit code 0
+*/
 
 
